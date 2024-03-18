@@ -76,7 +76,7 @@ module 0x42::Task2{
     // TODO
     // Define a function gen_Moo that takes an argument: x: u64 and returns a Moo
     fun gen_Moo(x:u64): Moo {
-        // ...
+        Moo {x : 46}
     }
 
     #[test]
